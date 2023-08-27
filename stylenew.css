@@ -414,16 +414,14 @@ body::-webkit-scrollbar-track {
     justify-content: center;
     margin-left: 2rem;
   }
-  h1 {
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 0.7rem;
-    text-shadow: 0.5rem 0.5rem 0 rgba(77, 73, 62, 0.3);
-  }
   h1 span {
-    margin-right: -0.7rem;
     font-size: 60px; 
   }
+  .popup-content h1{
+      letter-spacing: 0.5rem;
+      text-shadow: 0.3rem 0.3rem 0 rgba(77, 73, 62, 0.3);
+    }
+  
     
  
 }

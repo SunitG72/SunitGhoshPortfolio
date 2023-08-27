@@ -377,19 +377,20 @@ body::-webkit-scrollbar-track {
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 2rem;
+    padding: 0 0.5rem;
   }
   .content{
-    margin-left: 0rem;
+    padding-left: 2rem;
   }
   .card{
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
   .card1{
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
-
+  /* .popup { */
 }
+
 
 
 

@@ -47,9 +47,9 @@
       </div><br>
 <!-- ------------------------------------------------------------ -->
       <div class="content">
-        <a href="#proj"><button type="button">PROJECTS</button></a>[Check the projects i have done!]<br><br>
-        <a href="#skil"><button type="button" style="width: 85px;"> SKILLS </button></a>[The various skills in my arsenal!]<br><br>
-        <a href="#con"><button type="button" style="width: 85px;">CONTACT</button></a>[Lets get in touch! Contact me!]
+        <a href="#proj"><button type="button" style="width: 200px;">PROJECTS</button></a>[Check the projects i have done!]<br><br>
+        <a href="#skil"><button type="button" style="width: 200px;"> SKILLS </button></a>[The various skills in my arsenal!]<br><br>
+        <a href="#con"><button type="button" style="width: 200px;">CONTACT</button></a>[Lets get in touch! Contact me!]
 
 
       </div>
@@ -62,7 +62,7 @@
   </div>
   </div>
 
-
+<div class="container">
     <div class="card-container reveal">
       <div class="card" onclick="togglePopup(1)">
         <h2>[Human Activity Recognition]</h2>
@@ -77,9 +77,9 @@
     <div class="card" onclick="togglePopup(3)">
         <h2>[Multifactor-Auth System]</h2>
         <p>Multifactor Authrntication system using totp</p>
-    </div>
+    </div></div>
   </section>
-  <section>
+  <section><div class="container">
     <div class="card-container reveal">
       <div class="card" onclick="togglePopup(4)">
         <h2>[Text Summarization Software]</h2>
@@ -94,7 +94,7 @@
     <div class="card" onclick="togglePopup(6)">
         <h2>[Twitter Trend Context Generator]</h2>
         <p>Twitter trend context generator using twitters api and openai's api</p>
-    </div>
+    </div></div>
   </section><br>
 <!-- ------------------------------------------------------------ -->
 
@@ -273,7 +273,7 @@
     <h2>A Blast from the Past, in the Present</h2>
     <p>The "Asteroids 1979" project showcases the fusion of retro gaming nostalgia with modern web technology. By recreating the gameplay, excitement, and challenges of the original Atari classic, this project offers a portal to the golden age of arcade gaming. As the spaceship navigates through a sea of asteroids, it also bridges the gap between the past and the present, reminding us of the timeless joy that games can bring.</p>
 
-    <canvas id="gameCanvas" width="950px" height="500px"></canvas>
+    <canvas id="gameCanvas" width="900px" height="400px"></canvas>
     <script src="astCom.js"></script>
 
         <button onclick="closePopup(5)">Close</button>
@@ -356,7 +356,7 @@
   <div class="content">
    <div class="head">Certifications</div>
    </div>
-   </div>
+   
 
   <div class="card-container reveal">
     <div class="card1">
@@ -372,20 +372,23 @@
   <div class="card1">
     <img src="pngwing.com.png" alt="Image">
       <p>BSNL: Industrial Training-I at BSNL</p>
-  </div><br>
+  </div></div><br>
 </section>
 <!-- ------------------------------------------------------------ -->
 <br>
+<div class="pattern">
+  <div class="container">
+    <div class="pattern-inner"></div>
+  </div>
 <section id="con">
-<div class="container">
-  <div class="content">
-<div class="head">Contact Me</div></div>
-        
-</div>
-  <a href="mailto:100sg.sunitghosh@gmail.com"><button type="button" style="width: 17.55%; margin-bottom: 1rem; margin-left: 4rem;">EMAIL</button></a>
-  <a href="https://github.com/SunitG72"><button type="button" style="width: 17.55%; margin-bottom: 1rem; margin-left: 4rem;">GITHUB</button></a>
-  <a href="https://www.linkedin.com/in/sunit-ghosh-89b79b213/"><button type="button" style="width: 17.55%; margin-bottom: 1rem; margin-left: 4rem;">LINKEDIN</button></a>
-</section>
+  <div class="button-container">
+<div class="head">Contact Me</div></div><br>
+     
+<div class="button-container">
+  <a href="mailto:100sg.sunitghosh@gmail.com"><button class="my-button" type="button" style="margin-bottom: 1rem;">EMAIL</button></a>
+  <a href="https://github.com/SunitG72"><button class="my-button" type="button" style="margin-bottom: 1rem;">GITHUB</button></a>
+  <a href="https://www.linkedin.com/in/sunit-ghosh-89b79b213/"><button class="my-button" type="button" style="margin-bottom: 1rem;">LINKEDIN</button></a>
+</div></section>
 <br>
 <!-- ------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------ -->
@@ -403,11 +406,7 @@
       <div class="pattern-inner"></div>
     </div>
   </div>
-  <p style="text-align: center;">Copyright ©2023 Sunit Ghosh</p><br><br>
-  <div class="pattern">
-    <div class="container">
-      <div class="pattern-inner"></div>
-    </div>
+  <p style="text-align: center;">Copyright ©2023 Sunit Ghosh</p><br>
   </div>
 </body>
 </html>

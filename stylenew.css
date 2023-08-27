@@ -38,23 +38,11 @@
     flex-direction: column;
     
   }
-  
-  .card {
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: inset 0 0 150px rgba(77, 73, 62, 0.4), inset 0 0 150px rgba(77, 73, 62, 0.3);
-    padding: 2 4rem;
-    margin-left: 4rem;
-    margin-bottom: 31px;
-    position: relative;
-  }  
 
   .popup .popup-content button {
     margin-top: 10px;
     max-width: 10%;
+    margin-left: 0rem;
   }
 
 }
@@ -91,6 +79,7 @@ body {
   margin-left: 2rem; 
   max-width: 300px; 
   height: auto; 
+  margin-right: 2rem;
 }
 
 .button-small {
@@ -99,6 +88,7 @@ body {
 
 .container {
   padding: 0 4rem;
+  padding-right: 0rem;
 }
 
 .head {
@@ -204,12 +194,13 @@ main {
 }
 
 .card {
-  width: 300px;
+  width: 100%;
+  height: auto;
   padding: 20px;
   cursor: pointer;
   box-shadow: inset 0 0 150px rgba(77, 73, 62, 0.4), inset 0 0 150px rgba(77, 73, 62, 0.3);
   padding: 2 4rem;
-  margin-left: 4rem;
+  margin-right: 4rem;
   margin-bottom: 31px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   position: relative;
@@ -261,8 +252,8 @@ main {
 
 .popup button {
   margin-top: 10px;
-  width: 90%;
-  max-width: 100%;
+  width: 100%;
+  margin-left: -2rem;
 }
 
 .reveal{
@@ -279,16 +270,16 @@ main {
 }
 
 .card1 {
-  width: 300px;
+  width: 100%;
   height: 150px;
   padding: 20px;
   box-shadow: inset 0 0 150px rgba(77, 73, 62, 0.4), inset 0 0 150px rgba(77, 73, 62, 0.3);
   padding: 2 4rem;
-  margin-left: 4rem;
+  margin-right: 4rem;
   margin-bottom: 31px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   position: relative;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .card1:hover { 
@@ -383,10 +374,10 @@ body::-webkit-scrollbar-track {
     padding-left: 2rem;
   }
   .card{
-    margin-left: 2rem;
+    width: 270px;
   }
   .card1{
-    margin-left: 2rem;
+    width: 270px;
     overflow-y: hidden;
   }
 
@@ -417,11 +408,29 @@ body::-webkit-scrollbar-track {
   *{
     overflow-x: hidden;
   }
-
+  .button-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-left: 2rem;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.7rem;
+    text-shadow: 0.5rem 0.5rem 0 rgba(77, 73, 62, 0.3);
+  }
+  h1 span {
+    margin-right: -0.7rem;
+    font-size: 60px; 
+  }
+    
+ 
 }
 
-
-
-
-
+.button-container {
+  display: flex;
+  justify-content: center;
+  
+}
 

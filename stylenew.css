@@ -377,18 +377,46 @@ body::-webkit-scrollbar-track {
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 0.5rem;
+    padding: 0 2rem;
   }
   .content{
     padding-left: 2rem;
   }
   .card{
-    margin-left: 0.5rem;
+    margin-left: 2rem;
   }
   .card1{
-    margin-left: 0.5rem;
+    margin-left: 2rem;
   }
-  /* .popup { */
+
+}
+
+@media (max-width: 480px) {
+  .reveal,
+  .reveal.act {
+    transform: none;
+    opacity: 1;
+    filter: blur(0);
+    transition: none;
+  }
+
+  .popup {
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
+  }
+  .popup-content{
+    padding: 10px;
+    margin: 0 auto;
+    background-size: 4px 4px;
+    max-height: 90vh;
+    width: 380px;
+    margin-left: 0;
+    margin-right: 0;
+
+    z-index: 100;
+  }
+
 }
 
 

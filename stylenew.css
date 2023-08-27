@@ -387,6 +387,7 @@ body::-webkit-scrollbar-track {
   }
   .card1{
     margin-left: 2rem;
+    overflow-y: hidden;
   }
 
 }

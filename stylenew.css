@@ -376,8 +376,19 @@ body::-webkit-scrollbar-track {
 }
 
 @media (max-width: 767px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .content{
+    margin-left: 0rem;
+  }
+  .card{
+    margin-left: 2rem;
+  }
+  .card1{
+    margin-left: 2rem;
+  }
 
-  
 }
 
 

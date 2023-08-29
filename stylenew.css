@@ -130,6 +130,7 @@ h1 small {
   background-repeat: repeat-x;
 }
 
+
 button {
   cursor: pointer;
   font: inherit;
@@ -383,6 +384,7 @@ body::-webkit-scrollbar-track {
 
 }
 
+
 @media (max-width: 480px) {
   .reveal,
   .reveal.act {
@@ -432,3 +434,20 @@ body::-webkit-scrollbar-track {
   
 }
 
+.end{
+  background-color: #4d493e;
+  color: #c8c2aa;
+}
+
+.end .pattern {
+  border-top: 2px solid #4d493e;
+
+}
+
+.end .pattern-inner {
+  height: 40px;
+  background-size: 50px 3px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px;
+  background-position: 0 0, 22px 4px, 22px 5px, 22px 6px, 22px 7px, 28px 12px, 28px 13px, 28px 14px, 28px 15px;
+  background-image: linear-gradient(90deg, #c8c2aa, #c8c2aa 10px, transparent 10px), linear-gradient(90deg, rgba(200, 194, 170, 0.4), rgba(200, 194, 170, 0.4) 1px, rgba(77, 73, 62, 0.8) 1px, rgba(77, 73, 62, 0.8) 2px, rgba(200, 194, 170, 0.9) 2px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.4) 3px, rgba(200, 194, 170, 0.4) 4px, transparent 4px, transparent 12px, rgba(200, 194, 170, 0.4) 12px, rgba(200, 194, 170, 0.4) 13px, rgba(77, 73, 62, 0.8) 13px, rgba(77, 73, 62, 0.8) 14px, rgba(200, 194, 170, 0.9) 14px, rgba(200, 194, 170, 0.9) 15px, rgba(200, 194, 170, 0.4) 15px, rgba(200, 194, 170, 0.4) 16px, transparent 16px), linear-gradient(90deg, rgba(200, 194, 170, 0.9), rgba(200, 194, 170, 0.9) 1px, #c8c2aa 1px, #c8c2aa 2px, #c8c2aa 2px, #c8c2aa 3px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.9) 4px, transparent 4px, transparent 12px, rgba(200, 194, 170, 0.9) 12px, rgba(200, 194, 170, 0.9) 13px, #c8c2aa 13px, #c8c2aa 14px, #c8c2aa 14px, #c8c2aa 15px, rgba(200, 194, 170, 0.9) 15px, rgba(200, 194, 170, 0.9) 16px, transparent 16px), linear-gradient(90deg, rgba(200, 194, 170, 0.9), rgba(200, 194, 170, 0.9) 1px, #c8c2aa 1px, #c8c2aa 2px, #c8c2aa 2px, #c8c2aa 3px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.9) 4px, transparent 4px, transparent 12px, rgba(200, 194, 170, 0.9) 12px, rgba(200, 194, 170, 0.9) 13px, #c8c2aa 13px, #c8c2aa 14px, #c8c2aa 14px, #c8c2aa 15px, rgba(200, 194, 170, 0.9) 15px, rgba(200, 194, 170, 0.9) 16px, transparent 16px), linear-gradient(90deg, rgba(200, 194, 170, 0.4), rgba(200, 194, 170, 0.4) 1px, rgba(77, 73, 62, 0.8) 1px, rgba(77, 73, 62, 0.8) 2px, rgba(200, 194, 170, 0.9) 2px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.4) 3px, rgba(200, 194, 170, 0.4) 4px, transparent 4px, transparent 12px, rgba(200, 194, 170, 0.4) 12px, rgba(200, 194, 170, 0.4) 13px, rgba(77, 73, 62, 0.8) 13px, rgba(77, 73, 62, 0.8) 14px, rgba(200, 194, 170, 0.9) 14px, rgba(200, 194, 170, 0.9) 15px, rgba(200, 194, 170, 0.4) 15px, rgba(200, 194, 170, 0.4) 16px, transparent 16px), linear-gradient(90deg, rgba(200, 194, 170, 0.4), rgba(200, 194, 170, 0.4) 1px, rgba(77, 73, 62, 0.8) 1px, rgba(77, 73, 62, 0.8) 2px, rgba(200, 194, 170, 0.9) 2px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.4) 3px, rgba(200, 194, 170, 0.4) 4px, transparent 4px), linear-gradient(90deg, rgba(200, 194, 170, 0.9), rgba(200, 194, 170, 0.9) 1px, #c8c2aa 1px, #c8c2aa 2px, #c8c2aa 2px, #c8c2aa 3px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.9) 4px, transparent 4px), linear-gradient(90deg, rgba(200, 194, 170, 0.9), rgba(200, 194, 170, 0.9) 1px, #c8c2aa 1px, #c8c2aa 2px, #c8c2aa 2px, #c8c2aa 3px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.9) 4px, transparent 4px), linear-gradient(90deg, rgba(200, 194, 170, 0.4), rgba(200, 194, 170, 0.4) 1px, rgba(77, 73, 62, 0.8) 1px, rgba(77, 73, 62, 0.8) 2px, rgba(200, 194, 170, 0.9) 2px, rgba(200, 194, 170, 0.9) 3px, rgba(200, 194, 170, 0.4) 3px, rgba(200, 194, 170, 0.4) 4px, transparent 4px);
+  background-repeat: repeat-x;
+}

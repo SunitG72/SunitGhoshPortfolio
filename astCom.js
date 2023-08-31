@@ -6,7 +6,7 @@ window.addEventListener("keydown", function (event) {
 });
 
 
-const FPS = 120; // frames per second
+const FPS = 144; // frames per second
         const FRICTION = 0.7; // friction coefficient of space (0 = no friction, 1 = lots of friction)
         const GAME_LIVES = 3; // starting number of lives
         const LASER_DIST = 0.6; // max distance laser can travel as fraction of screen width

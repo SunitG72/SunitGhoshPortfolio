@@ -36,7 +36,7 @@
   .card-container {
     display: flex;
     flex-direction: column;
-    
+    padding-right: 2rem;
   }
 
   .popup .popup-content button {
@@ -374,11 +374,8 @@ body::-webkit-scrollbar-track {
   .content{
     padding-left: 2rem;
   }
-  .card{
-    width: 90%;
-  }
+  
   .card1{
-    width: 90%;
     overflow-y: hidden;
   }
 

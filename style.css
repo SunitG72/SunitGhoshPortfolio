@@ -7,6 +7,7 @@ $boxShadow: 3px 3px 0 rgba($color, .6);
   outline: none !important;
 }
 
+
 body {
   background-color: $bgColor;
   background-size: 4px 4px;

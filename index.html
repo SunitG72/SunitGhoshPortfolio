@@ -411,7 +411,14 @@
       <div class="pattern-inner"></div>
     </div>
   </div>
-  <p style="text-align: center;">Copyright ©2024 Sunit Ghosh</p><br></div>
+  <p style="text-align: center;">Copyright ©<span id="footer-year"></span> Sunit Ghosh</p><br></div>
   </div>
 </body>
+<script>
+  const currentYear = () => {
+    let currYear = new Date().getFullYear();
+    document.getElementById("footer-year").innerText = currYear;
+  }
+  currentYear();
+</script>
 </html>
